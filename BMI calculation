@@ -1,0 +1,17 @@
+print('----BMI Calculation----')
+name = input('What is your name:')
+height = int(input('What is your height (cm):'))
+weight = int(input('What is your weight (kg):'))
+bmi = int(weight/height/height*10000)
+print()
+print('-----Calculation-----')
+
+print(f'Name: {name}')
+print(f'Height: {height} cm')
+print(f'Weight: {weight} kg')
+print(f'BMI Value: {bmi} ')
+print()
+print('-----Summary-----')
+
+print('BMI of', name, 'is', bmi)
+print()
